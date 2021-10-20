@@ -1,0 +1,79 @@
+body{
+  background-color: lavender
+}
+h2{
+  color:tomato;
+  font-size: 20px;
+}
+
+
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*********classes*+********/
+
+.corazon:hover{
+  background-color: lawngreen;
+}
+.colgante:hover{
+  /*background-color: lemonchiffon;*/
+  filter: invert();
+}
+
+.A{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: sticky;
+  top:0;
+  
+
+}
+
+.B{
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+
+}
+
+.C{
+  background-color: crimson;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+}
+
+.Parent{
+
+  background-color: mediumspringgreen;
+  height: 200px;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.foto{
+
+  float: left;
+  margin-right: 30px;
+
+}
+
+/*********ID*+********/
+
+#titulo:hover{
+  color:brown;
+  font-size: 200%;
+ /* background-color: aquamarine;
+  width: auto;
+  height: auto;*/
+}
